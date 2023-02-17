@@ -15,9 +15,14 @@ html { box-sizing: border-box; }
 }
 
 body {
-    background-color: $bg;
+    // background-color: $bg;
+    background-image: url('./img/pexels-hristo-fidanov-1252869.jpg');
+    background-position: center;
+    background-size: cover;
+
     
     .content {
+        opacity: .85;
         margin: 5%;
         background-color: $bg2;
         border-radius: 10px;

@@ -11,9 +11,12 @@ html {
 }
 
 body {
-  background-color: #151D2C;
+  background-image: url("./img/pexels-hristo-fidanov-1252869.jpg");
+  background-position: center;
+  background-size: cover;
 }
 body .content {
+  opacity: 0.85;
   margin: 5%;
   background-color: #1F2938;
   border-radius: 10px;
