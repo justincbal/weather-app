@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #151D2C;
+}
+body .content {
+  margin: 5%;
+  background-color: #1F2938;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.searchRow {
+  height: 30px;
+}
+.searchRow > * {
+  height: 100%;
+}
+.searchRow #search {
+  background-color: #1F2938;
+  color: #D1D5DB;
+  font-weight: 400;
+  font-size: 1rem;
+  border: none;
+  border-bottom: #D1D5DB 2px solid;
+}
+.searchRow #search::-moz-placeholder {
+  color: #D1D5DB;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.searchRow #search::placeholder {
+  color: #D1D5DB;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.searchRow #search:focus {
+  outline: none;
+}
+.searchRow .srchBtn {
+  background-color: #22766E;
+  color: #D1D5DB;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.locationHeading {
+  color: #D1D5DB;
+  font-size: 3.5rem;
+}
+
+.img {
+  width: 230px;
+}
+
+.weatherType {
+  font-size: 2rem;
+}
+
+.whiteFont {
+  color: #D1D5DB;
+}
+
+.weatherRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  width: 40%;
+}
+.weatherRow .weatherCat {
+  color: #22766E;
+}/*# sourceMappingURL=style.css.map */
