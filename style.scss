@@ -88,9 +88,19 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 25px;
-    width: 40%;
+    width: clamp(270px, 50% ,460px);
 
     .weatherCat {
         color: $green;
     }
+}
+
+.h6 {
+    color: $green;
+    font-style: italic;
+}
+
+.error {
+    color: rgb(245, 92, 92);
+    display: none;
 }

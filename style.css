@@ -81,8 +81,18 @@ body .content {
   display: flex;
   justify-content: space-between;
   gap: 25px;
-  width: 40%;
+  width: clamp(270px, 50%, 460px);
 }
 .weatherRow .weatherCat {
   color: #22766E;
+}
+
+.h6 {
+  color: #22766E;
+  font-style: italic;
+}
+
+.error {
+  color: rgb(245, 92, 92);
+  display: none;
 }/*# sourceMappingURL=style.css.map */

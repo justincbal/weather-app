@@ -5,43 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <title>Weathering with You</title>
 </head>
 <body>
 
     <div class="content">
+        <h6 class="h6">City, State, or Country code</h6>
         <div class="searchRow">
             <input type="text" name="search" id="search" placeholder="Find location">
             <button class="srchBtn">FIND</button>
         </div>
-        <h1 class="locationHeading">Toronto</h1>
-        <img src="./img/mist.svg" alt="weather icon" class="img">
+        <h6 class="error">Invalid entry</h6>
+        <h1 class="locationHeading">---</h1>
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="img">
         <h2 class="weatherType whiteFont">Mist</h2>
-
+        
         <div class="weatherRow">
-            <h3 class="weatherCat tmp">Temperature:</h3>
-            <h3 class="weatherTmp whiteFont">5°C</h3>
+            <h3 class="weatherCat tmpC">Temperature:</h3>
+            <h3 class="weatherTmp tmp whiteFont">--</h3>
         </div>
         <div class="weatherRow">
-            <h3 class="weatherCat fltmp">Feels like:</h3>
-            <h3 class="weatherTmp whiteFont">5°C</h3>
+            <h3 class="weatherCat fltmpC">Feels like:</h3>
+            <h3 class="weatherTmp fltmp whiteFont">--</h3>
         </div>
         <div class="weatherRow">
-            <h3 class="weatherCat high">High:</h3>
-            <h3 class="weatherTmp whiteFont">5°C</h3>
+            <h3 class="weatherCat highC">High:</h3>
+            <h3 class="weatherTmp high whiteFont">--</h3>
         </div>
         <div class="weatherRow">
-            <h3 class="weatherCat low">Low:</h3>
-            <h3 class="weatherTmp whiteFont">5°C</h3>
+            <h3 class="weatherCat lowC">Low:</h3>
+            <h3 class="weatherTmp low whiteFont">--</h3>
         </div>
         <div class="weatherRow">
-            <h3 class="weatherCat humid">Humidity:</h3>
-            <h3 class="weatherTmp whiteFont">5°C</h3>
+            <h3 class="weatherCat humidC">Humidity:</h3>
+            <h3 class="weatherTmp humid whiteFont">--</h3>
         </div>
         <div class="weatherRow">
-            <h3 class="weatherCat">Winds:</h3>
-            <h3 class="weatherTmp whiteFont">5°C</h3>
+            <h3 class="weatherCat windsC">Winds:</h3>
+            <h3 class="weatherTmp winds whiteFont">--</h3>
         </div>
     </div>
     
