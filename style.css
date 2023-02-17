@@ -14,6 +14,8 @@ body {
   background-image: url("./img/pexels-hristo-fidanov-1252869.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 body .content {
   opacity: 0.85;
