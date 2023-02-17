@@ -15,6 +15,7 @@
 */
 const srchBtn = document.querySelector('.srchBtn');
 const error = document.querySelector('.error');
+const searchInput = document.querySelector('#search');
 
 class Location {
     constructor(obj) {
@@ -43,8 +44,15 @@ srchBtn.addEventListener('click', () => {
     
     // Use API
     getWeatherAtLoc(searchVal);
-
 })
+
+searchInput.addEventListener('keypress', (e) => {
+    if (e.key == 'Enter') {
+        srchBtn.click();
+    }
+})
+
+
 
 // FETCH INFO FROM OPENWEATHER API
 const getWeatherAtLoc = async (loc) => {
