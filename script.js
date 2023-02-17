@@ -83,12 +83,12 @@ function updatePage(obj) {
 
     locationHeading.textContent = obj._location;
     weatherType.textContent = obj._type;
-    tmp.textContent = `${obj._temp}°C`;
-    fltmp.textContent = `${obj._feels}°C`;
-    high.textContent = `${obj._max}°C`
-    low.textContent = `${obj._min}°C`;
-    humid.textContent = `${obj._humidity}%`;
-    winds.textContent = `${obj._wind}mph`;
+    tmp.textContent = `${obj._temp} °C`;
+    fltmp.textContent = `${obj._feels} °C`;
+    high.textContent = `${obj._max} °C`
+    low.textContent = `${obj._min} °C`;
+    humid.textContent = `${obj._humidity} %`;
+    winds.textContent = `${obj._wind} mph`;
     icon.src = `http://openweathermap.org/img/wn/${obj._icon}@2x.png`
 
 
